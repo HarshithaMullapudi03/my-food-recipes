@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Food Recipe</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="breakfast.html">Breakfast</a>
+            <a href="lunch.html">Lunch</a>
+            <a href="dinner.html">Dinner</a>
+            <a href="desserts.html">Desserts</a>
+            <a href="appetizers.html">Appetizers</a>
+        </nav>
+        <input type="text" id="search-bar" placeholder="Search for recipes...">
+    </header>
+
+    <main>
+        <section id="recipe-list"></section>
+        
+        <!-- Modal for recipe details -->
+        <div id="recipe-modal" class="modal">
+            <div class="modal-content">
+                <span id="cancel-button" class="close-button">&times;</span>
+                <h2 id="modal-title"></h2>
+                <img id="modal-image" src="" alt="">
+                <p id="modal-description"></p>
+                <p id="modal-procedure"></p>
+            </div>
+        </div>
+
+        <!-- Add Recipe Form -->
+        <form id="add-recipe-form">
+            <h2>Add Recipe</h2>
+            <input type="text" id="add-title" placeholder="Title">
+            <input type="text" id="add-category" placeholder="Category">
+            <input type="text" id="add-image" placeholder="Image URL">
+            <input type="text" id="add-description" placeholder="Description">
+            <input type="text" id="add-procedure" placeholder="Procedure">
+            <button id="add-button">Add Recipe</button>
+        </form>
+
+        <!-- Edit Recipe Form -->
+        <div id="edit-recipe-form" style="display:none;">
+            <h2>Edit Recipe</h2>
+            <input type="text" id="edit-title" placeholder="Title">
+            <input type="text" id="edit-category" placeholder="Category">
+            <input type="text" id="edit-image" placeholder="Image URL">
+            <input type="text" id="edit-description" placeholder="Description">
+            <input type="text" id="edit-procedure" placeholder="Procedure">
+            <button id="update-button">Update Recipe</button>
+        </div>
+
+     
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
