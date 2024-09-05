@@ -10,7 +10,7 @@
 ![image](https://github.com/user-attachments/assets/7fd99bef-a8e6-4d88-8110-dec0a57d6e44)
 
 **Editing recipes:**
-![image](https://github.com/user-attachments/assets/123a0318-6f83-4a3f-a7c4-b530678c7644)
+![image](https://github.com/user-attachments/assets/79910b28-fb8b-480d-9097-e33e7692d7ff)
 ![image](https://github.com/user-attachments/assets/88ed30c9-3238-42a1-a738-c23a327a45b2)
 
 
